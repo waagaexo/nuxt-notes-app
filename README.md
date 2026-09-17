@@ -35,7 +35,8 @@ npm run preview
 ## Структура
 
 ```
-app.vue                 — UI приложения
+app/app.vue             — UI приложения
+app/assets/css/main.css — стили
 composables/useNotes.ts — CRUD, поиск, теги, persistence
 types/note.ts           — типы
 ```
