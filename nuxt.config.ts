@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+  future: {
+    compatibilityVersion: 4,
+  },
   devtools: { enabled: false },
   app: {
     head: {
@@ -11,6 +14,9 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/main.css'],
+  imports: {
+    dirs: ['composables', 'types'],
+  },
   typescript: {
     strict: true,
   },
